@@ -2539,3 +2539,36 @@ button {
     transform: none !important;
   }
 }
+
+/* IT & QA testimonial: same component treatment as Platform, retaining IT & QA content and palette. */
+.itqa-page .itqa-testimonial.platform-testimonial {
+  position: relative;
+  display: grid;
+  height: 351px;
+  min-height: 351px;
+  grid-template-columns: 150px minmax(0, 960px);
+  grid-template-rows: 150px 11px;
+  align-content: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding: 80px 30px;
+  overflow: hidden;
+  background: var(--sky);
+}
+
+.itqa-page .itqa-testimonial .testimonial-portrait { width: 150px; height: 150px; }
+.itqa-page .itqa-testimonial .testimonial-content { min-width: 0; align-self: center; }
+.itqa-page .itqa-testimonial .testimonial-content blockquote { margin: 0; padding: 10px 0; color: var(--muted); font-size: 24px; font-weight: 300; line-height: normal; }
+.itqa-page .itqa-testimonial .testimonial-attribution { margin: 0; padding: 5px 0; color: #000; font-size: 24px; font-weight: 600; line-height: normal; }
+.itqa-page .itqa-testimonial .testimonial-quote { top: 0; right: max(30px, calc((100% - 1134px) / 2)); width: 91px; height: 84px; }
+.itqa-page .itqa-testimonial .testimonial-dots { width: 74px; height: 11px; }
+
+@media (max-width: 700px) {
+  .itqa-page .itqa-testimonial.platform-testimonial { display: flex; height: auto; min-height: 0; flex-direction: column; gap: 24px; padding: 48px 30px 40px; text-align: center; }
+  .itqa-page .itqa-testimonial .testimonial-portrait { width: 120px; height: 120px; flex-basis: 120px; }
+  .itqa-page .itqa-testimonial .testimonial-content { width: 100%; }
+  .itqa-page .itqa-testimonial .testimonial-content blockquote,
+  .itqa-page .itqa-testimonial .testimonial-attribution { font-size: 20px; }
+  .itqa-page .itqa-testimonial .testimonial-quote { top: 16px; right: 24px; }
+}
