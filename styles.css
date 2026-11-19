@@ -2576,3 +2576,56 @@ button {
   .itqa-page .itqa-testimonial .testimonial-attribution { font-size: 20px; }
   .itqa-page .itqa-testimonial .testimonial-quote { top: 16px; right: 24px; }
 }
+
+/* About page: aligned to the shared Outfit type scale and original Figma value badges. */
+.about-page,
+.about-page button,
+.about-page input {
+  font-family: var(--body-font);
+}
+
+.about-hero h1,
+.about-story-copy h2,
+.about-story h3,
+.about-values > h2,
+.about-value h3,
+.about-contact h2 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-story-copy > p,
+.about-story aside,
+.about-value p {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-value > img,
+.about-value-orb {
+  width: 153px;
+  height: 153px;
+  top: 0;
+}
+
+.about-value > img {
+  object-fit: contain;
+}
+
+.about-value-orb {
+  background: transparent;
+}
+
+.about-value:nth-child(2) .about-value-orb {
+  background: #9652bb;
+}
+
+.about-value:nth-child(3) .about-value-orb {
+  background: #f54b3a;
+}
+
+.about-value-orb img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
