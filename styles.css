@@ -655,8 +655,8 @@ button {
   display: flex;
   min-height: 486px;
   align-items: center;
-  background-color: #6dacd6;
-  background-image: linear-gradient(to left, rgba(109, 172, 214, 0) 0%, #6dacd6 69.861%), url("assets/figma/platform/hero.jpg");
+  background-color: #459eda;
+  background-image: linear-gradient(to left, rgba(69, 158, 218, 0) 0%, #459eda 69.861%), url("assets/figma/platform/hero.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -1246,9 +1246,9 @@ button {
 }
 
 /* IT & QA Services page */
-.itqa-hero { position:relative; min-height:486px; overflow:hidden; color:#fff; background:#6dacd6; }
+.itqa-hero { position:relative; min-height:486px; overflow:hidden; color:#fff; background:#459eda; }
 .itqa-hero>img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
-.itqa-hero::after { position:absolute; inset:0; background:linear-gradient(90deg,#6dacd6 0%,rgba(109,172,214,.82) 38%,rgba(4,27,49,.08) 100%); content:""; }
+.itqa-hero::after { position:absolute; inset:0; background:linear-gradient(to left,rgba(69,158,218,0) 0%,#459eda 69.861%); content:""; }
 .itqa-hero-inner { position:relative; z-index:1; display:flex; width:min(688px,calc(100% - 60px)); flex-direction:column; align-items:flex-start; gap:30px; margin-left:max(30px,10.14vw); padding-top:126px; }
 .itqa-hero h1 { max-width:688px; margin:0; padding:5px 0; font-size:48px; font-weight:600; line-height:normal; text-shadow:0 4px 4px rgba(0,0,0,.25); }
 .itqa-hero p { margin:0; padding:10px 0; color:rgba(252,252,252,.85); font-size:24px; font-weight:300; line-height:normal; }
@@ -1289,7 +1289,7 @@ button {
 .itqa-contact>div { position:relative; z-index:1; }.itqa-contact h2 { margin:0 0 20px; font-size:30px; font-weight:500; line-height:normal; }.itqa-contact .button { font-size:18px; }
 
 @media (max-width: 700px) {
-  .itqa-hero { min-height:322px; }.itqa-hero::after { background:linear-gradient(90deg,rgba(109,172,214,.9),rgba(109,172,214,.35)); }.itqa-hero-inner { width:calc(100% - 40px); gap:20px; margin-left:20px; padding-top:104px; }.itqa-hero h1 { max-width:285px; font-size:32px; line-height:1.02; }.itqa-hero p { max-width:300px; font-size:14px; }.itqa-hero-button { min-height:32px; padding:7px 10px; font-size:12px; }
+  .itqa-hero { min-height:322px; }.itqa-hero::after { background:linear-gradient(to left,rgba(69,158,218,0),#459eda 69.861%); }.itqa-hero-inner { width:calc(100% - 40px); gap:20px; margin-left:20px; padding-top:104px; }.itqa-hero h1 { max-width:285px; font-size:32px; line-height:1.02; }.itqa-hero p { max-width:300px; font-size:14px; }.itqa-hero-button { min-height:32px; padding:7px 10px; font-size:12px; }
   .itqa-container { width:calc(100% - 40px); }.itqa-services { padding:30px 0; }.itqa-services h2 { margin-bottom:20px; font-size:20px; }.itqa-service-grid { grid-template-columns:1fr; gap:10px; }.itqa-service-image { height:160px; padding:15px; }.itqa-service-image h3 { font-size:14px; }.itqa-service-body { min-height:0; padding:15px; }.itqa-lead { min-height:0; margin-bottom:15px; font-size:12px; }.itqa-service-body h4 { margin-bottom:8px; font-size:14px; }.itqa-handles,.itqa-tests { gap:6px; }.itqa-handle,.itqa-test { min-height:0; gap:8px; padding:10px; border-radius:4px; }.itqa-handle>img,.itqa-icon { width:20px; height:20px; flex-basis:20px; }.itqa-icon { font-size:14px; line-height:18px; }.itqa-handle h5,.itqa-test h5 { margin-bottom:3px; font-size:12px; }.itqa-handle p,.itqa-test p { font-size:9px; }.itqa-test-icon { width:20px; flex-basis:20px; font-size:17px; line-height:18px; }
   .itqa-testimonial { padding:30px 0; }.itqa-testimonial-inner { width:calc(100% - 40px); flex-direction:column; align-items:flex-start; gap:15px; padding:25px 0 35px; }.itqa-testimonial > .testimonial-portrait { width:75px; height:75px; }.itqa-testimonial blockquote { font-size:14px; }.itqa-testimonial p { font-size:14px; }.itqa-quotes { top:-34px; right:10%; font-size:100px; }.itqa-dots { gap:6px; }.itqa-dots i { width:7px; height:7px; }
   .itqa-contact { min-height:212px; padding:40px 20px; }.itqa-contact h2 { margin-bottom:20px; font-size:20px; }.itqa-contact .button { font-size:12px; }
@@ -1832,7 +1832,7 @@ button {
   min-height: 486px;
   align-items: flex-start;
   overflow: hidden;
-  background: #6dacd6;
+  background: #459eda;
   color: #fff;
 }
 
@@ -1840,7 +1840,7 @@ button {
   position: absolute;
   z-index: 0;
   inset: 0;
-  background: linear-gradient(to left, rgba(109, 172, 214, 0) 0%, #6dacd6 69.861%);
+  background: linear-gradient(to left, rgba(69, 158, 218, 0) 0%, #459eda 69.861%);
   content: "";
 }
 
