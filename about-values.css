@@ -10,6 +10,10 @@
   filter: url("#value-icon-matte");
 }
 
+.about-value > div {
+  padding-top: 100px;
+}
+
 .about-value > img,
 .about-value-orb {
   filter: drop-shadow(0 6px 8px rgb(0 0 0 / 12%));
