@@ -2661,3 +2661,35 @@ button {
     padding-bottom: 0;
   }
 }
+
+
+@media (min-width: 761px) {
+  .site-header,
+  main > :is(.platform-hero, .engineering-hero, .itqa-hero, .about-hero, .contact-hero) {
+    --desktop-header-height: 80px;
+  }
+
+  .site-header {
+    height: var(--desktop-header-height);
+  }
+
+  main > :is(.platform-hero, .engineering-hero, .itqa-hero, .about-hero, .contact-hero) {
+    --desktop-hero-gap: 56px;
+    height: auto;
+    min-height: 0;
+    align-items: flex-start;
+    padding-block: calc(var(--desktop-header-height) + var(--desktop-hero-gap)) var(--desktop-hero-gap);
+  }
+
+  main :is(.platform-hero-inner, .engineering-hero-inner, .itqa-hero-inner, .about-hero-inner) {
+    padding-block: 0;
+  }
+
+  main > :is(.platform-hero, .engineering-hero, .itqa-hero, .about-hero, .contact-hero) h1 {
+    padding-top: 0;
+  }
+
+  :is(.about-hero-inner, .contact-hero .contact-shell) > p:last-child {
+    padding-bottom: 0;
+  }
+}
