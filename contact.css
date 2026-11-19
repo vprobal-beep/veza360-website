@@ -42,7 +42,7 @@
 .contact-field textarea { min-height: 78px; resize: vertical; }
 .contact-form .button { justify-self: start; margin-top: 5px; border: 0; background: var(--bright-blue); color: white; font: 500 18px var(--body-font); cursor: pointer; }
 .contact-status { margin: 0; color: var(--muted); }
-.contact-card { padding: 30px; border-radius: 10px; background: #01233a; color: white; font: 400 16px Inter, sans-serif; }
+.contact-card { padding: 30px; border-radius: 10px; background: #01233a; color: white; font: 400 16px var(--body-font); }
 .contact-card div { padding-inline: 18px; border-left: 2px solid var(--bright-blue); }
 .contact-card p { margin: 0; }
 .contact-card p + p { margin-top: 10px; }
