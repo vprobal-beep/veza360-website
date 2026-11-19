@@ -2182,9 +2182,9 @@ button {
   }
 
   .engineering-hero-inner {
-    width: 100%;
+    width: calc(100% - 40px);
     gap: 30px;
-    margin: 0;
+    margin-inline: 20px;
     padding: 0 0 50px;
   }
 
