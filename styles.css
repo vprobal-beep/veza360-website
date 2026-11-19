@@ -1178,6 +1178,73 @@ button {
   }
 }
 
+/* Final IT & QA mobile type scale, kept after legacy page rules. */
+@media (max-width: 700px) {
+  .itqa-page .itqa-hero h1 { max-width: 360px; font-size: 44px; line-height: 1.05; }
+  .itqa-page .itqa-hero p { max-width: 360px; font-size: 18px; line-height: 1.25; }
+  .itqa-page .itqa-hero-button { min-height: 42px; padding: 10px 15px; font-size: 18px; }
+  .itqa-page .itqa-services h2 { margin-bottom: 30px; font-size: 30px; }
+  .itqa-page .itqa-service-image { height: 220px; padding: 20px; }
+  .itqa-page .itqa-service-image h3 { font-size: 20px; }
+  .itqa-page .itqa-service-body { padding: 20px; }
+  .itqa-page .itqa-lead { margin-bottom: 20px; font-size: 16px; line-height: 1.25; }
+  .itqa-page .itqa-service-body h4 { margin-bottom: 10px; font-size: 18px; }
+  .itqa-page .itqa-handles,.itqa-page .itqa-tests { gap: 10px; }
+  .itqa-page .itqa-handle,.itqa-page .itqa-test { gap: 10px; padding: 14px; border-radius: 7px; }
+  .itqa-page .itqa-handle>img { width: 28px; height: 28px; flex-basis: 28px; }
+  .itqa-page .itqa-handle h5,.itqa-page .itqa-test h5 { margin-bottom: 4px; font-size: 16px; }
+  .itqa-page .itqa-handle p,.itqa-page .itqa-test p { font-size: 12px; line-height: 1.25; }
+  .itqa-page .itqa-test-icon { width: 28px; height: 28px; flex-basis: 28px; font-size: 0; line-height: normal; }
+  .itqa-page .itqa-contact h2 { font-size: 30px; }
+  .itqa-page .itqa-contact .button { font-size: 18px; }
+}
+
+/* IT & QA visual corrections */
+.itqa-testimonial.platform-testimonial {
+  display: grid;
+  height: 351px;
+  min-height: 351px;
+  grid-template-columns: 150px minmax(0, 960px);
+  grid-template-rows: 150px 11px;
+  align-content: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding: 80px 30px;
+  background: var(--sky);
+}
+
+.itqa-testimonial.platform-testimonial .testimonial-content blockquote,
+.itqa-testimonial.platform-testimonial .testimonial-attribution {
+  font-family: var(--body-font);
+}
+
+@media (max-width: 700px) {
+  .itqa-hero h1 { max-width: 360px; font-size: 44px; line-height: 1.05; }
+  .itqa-hero p { max-width: 360px; font-size: 18px; line-height: 1.25; }
+  .itqa-hero-button { min-height: 42px; padding: 10px 15px; font-size: 18px; }
+  .itqa-services h2 { margin-bottom: 30px; font-size: 30px; }
+  .itqa-service-image { height: 220px; padding: 20px; }
+  .itqa-service-image h3 { font-size: 20px; }
+  .itqa-service-body { padding: 20px; }
+  .itqa-lead { margin-bottom: 20px; font-size: 16px; line-height: 1.25; }
+  .itqa-service-body h4 { margin-bottom: 10px; font-size: 18px; }
+  .itqa-handles,.itqa-tests { gap: 10px; }
+  .itqa-handle,.itqa-test { gap: 10px; padding: 14px; border-radius: 7px; }
+  .itqa-handle>img,.itqa-icon { width: 28px; height: 28px; flex-basis: 28px; }
+  .itqa-handle h5,.itqa-test h5 { margin-bottom: 4px; font-size: 16px; }
+  .itqa-handle p,.itqa-test p { font-size: 12px; line-height: 1.25; }
+  .itqa-test-icon { width: 28px; height: 28px; flex-basis: 28px; font-size: 0; line-height: normal; }
+  .itqa-testimonial.platform-testimonial { display: flex; height: auto; min-height: 0; flex-direction: column; gap: 24px; padding: 48px 30px 40px; text-align: center; }
+  .itqa-testimonial.platform-testimonial .testimonial-portrait { width: 120px; height: 120px; flex-basis: 120px; }
+  .itqa-testimonial.platform-testimonial .testimonial-content { width: 100%; }
+  .itqa-testimonial.platform-testimonial .testimonial-quote { top: 16px; right: 24px; }
+  .itqa-testimonial.platform-testimonial .testimonial-content blockquote,
+  .itqa-testimonial.platform-testimonial .testimonial-attribution { font-size: 20px; }
+  .itqa-contact h2 { font-size: 30px; }
+  .itqa-contact .button { font-size: 18px; }
+}
+
 /* IT & QA Services page */
 .itqa-hero { position:relative; min-height:486px; overflow:hidden; color:#fff; background:#6dacd6; }
 .itqa-hero>img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }

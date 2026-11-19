@@ -1,5 +1,66 @@
-<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="1.5" viewBox="0 0 36 1.5" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="g2600">
-<path id="path2602" d="M0 0.75H36" stroke-width="1.5" stroke-miterlimit="10" stroke="#0099FF"/>
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" fill="#3B3B3B"/>
+<g id="04_IT &#38; QA Services">
+<rect width="1440" height="2645" transform="translate(-200 -1554)" fill="white"/>
+<g id="Capabilities Section">
+<rect width="1440" height="1248" transform="translate(-200 -1068)" fill="white"/>
+<g id="Frame 44">
+<g id="Frame 289">
+<g id="Frame 37">
+<path d="M-50 -630H505V110C505 115.523 500.523 120 495 120H-40C-45.5229 120 -50 115.523 -50 110V-630Z" fill="#0099FF"/>
+<g id="Frame 43">
+<g id="Frame 42">
+<g id="Frame 42_2">
+<path d="M-20 -13C-20 -16.866 -16.866 -20 -13 -20H468C471.866 -20 475 -16.866 475 -13V83C475 86.866 471.866 90 468 90H-13C-16.866 90 -20 86.866 -20 83V-13Z" fill="#004372"/>
+<g id="Layer_1" clip-path="url(#clip0_248_356)">
+<g id="Group">
+<g id="Group_2">
+<path id="XMLID_741_" d="M34.9409 1.05884H1.05859V9.52943H34.9409V1.05884Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_740_" d="M34.9409 9.52942H1.05859V34.9412H34.9409V9.52942Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_738_" d="M30.7056 4.23535V6.353" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_737_" d="M26.4702 4.23535V6.353" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_736_" d="M22.2349 4.23535V6.353" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_735_" d="M4.23486 5.29419H14.8231" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_734_" d="M7.41159 19.0588C8.58114 19.0588 9.52924 18.1107 9.52924 16.9411C9.52924 15.7716 8.58114 14.8235 7.41159 14.8235C6.24205 14.8235 5.29395 15.7716 5.29395 16.9411C5.29395 18.1107 6.24205 19.0588 7.41159 19.0588Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_733_" d="M8.47019 28.5882C9.63973 28.5882 10.5878 27.6401 10.5878 26.4706C10.5878 25.301 9.63973 24.3529 8.47019 24.3529C7.30064 24.3529 6.35254 25.301 6.35254 26.4706C6.35254 27.6401 7.30064 28.5882 8.47019 28.5882Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_732_" d="M27.5293 28.5882C28.6988 28.5882 29.6469 27.6401 29.6469 26.4706C29.6469 25.301 28.6988 24.3529 27.5293 24.3529C26.3597 24.3529 25.4116 25.301 25.4116 26.4706C25.4116 27.6401 26.3597 28.5882 27.5293 28.5882Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_731_" d="M28.5879 19.0588C29.7574 19.0588 30.7055 18.1107 30.7055 16.9411C30.7055 15.7716 29.7574 14.8235 28.5879 14.8235C27.4183 14.8235 26.4702 15.7716 26.4702 16.9411C26.4702 18.1107 27.4183 19.0588 28.5879 19.0588Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_730_" d="M17.9997 20.1177C19.754 20.1177 21.1762 18.6956 21.1762 16.9412C21.1762 15.1869 19.754 13.7648 17.9997 13.7648C16.2454 13.7648 14.8232 15.1869 14.8232 16.9412C14.8232 18.6956 16.2454 20.1177 17.9997 20.1177Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_729_" d="M20.1172 16.9412H26.4701" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_728_" d="M9.5293 16.9412H15.8822" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_727_" d="M17.9999 25.4117L13.7646 31.7647L15.8823 34.9412H20.1176L22.2352 31.7647L17.9999 25.4117Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_726_" d="M25.9411 24.8824C24.9168 22.4925 23.0643 20.5524 20.7242 19.419L20.2461 19.1874" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_725_" d="M15.7538 19.1873L14.9538 19.5747C12.8096 20.6133 11.0692 22.3319 10.0038 24.4628L9.5293 25.4117" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_724_" d="M34.9409 1.05884H1.05859V9.52943H34.9409V1.05884Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_723_" d="M34.9409 9.52942H1.05859V34.9412H34.9409V9.52942Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_722_" d="M30.7056 4.23535V6.353" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_721_" d="M26.4702 4.23535V6.353" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_720_" d="M22.2349 4.23535V6.353" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_719_" d="M4.23486 5.29419H14.8231" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_718_" d="M7.41159 19.0588C8.58114 19.0588 9.52924 18.1107 9.52924 16.9411C9.52924 15.7716 8.58114 14.8235 7.41159 14.8235C6.24205 14.8235 5.29395 15.7716 5.29395 16.9411C5.29395 18.1107 6.24205 19.0588 7.41159 19.0588Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_717_" d="M8.47019 28.5882C9.63973 28.5882 10.5878 27.6401 10.5878 26.4706C10.5878 25.301 9.63973 24.3529 8.47019 24.3529C7.30064 24.3529 6.35254 25.301 6.35254 26.4706C6.35254 27.6401 7.30064 28.5882 8.47019 28.5882Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_715_" d="M27.5293 28.5882C28.6988 28.5882 29.6469 27.6401 29.6469 26.4706C29.6469 25.301 28.6988 24.3529 27.5293 24.3529C26.3597 24.3529 25.4116 25.301 25.4116 26.4706C25.4116 27.6401 26.3597 28.5882 27.5293 28.5882Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_714_" d="M28.5879 19.0588C29.7574 19.0588 30.7055 18.1107 30.7055 16.9411C30.7055 15.7716 29.7574 14.8235 28.5879 14.8235C27.4183 14.8235 26.4702 15.7716 26.4702 16.9411C26.4702 18.1107 27.4183 19.0588 28.5879 19.0588Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_713_" d="M17.9997 20.1177C19.754 20.1177 21.1762 18.6956 21.1762 16.9412C21.1762 15.1869 19.754 13.7648 17.9997 13.7648C16.2454 13.7648 14.8232 15.1869 14.8232 16.9412C14.8232 18.6956 16.2454 20.1177 17.9997 20.1177Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_712_" d="M20.1172 16.9412H26.4701" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_711_" d="M9.5293 16.9412H15.8822" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_710_" d="M17.9999 25.4117L13.7646 31.7647L15.8823 34.9412H20.1176L22.2352 31.7647L17.9999 25.4117Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_709_" d="M25.9411 24.8824C24.9168 22.4925 23.0643 20.5524 20.7242 19.419L20.2461 19.1874" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="XMLID_708_" d="M15.7538 19.1873L14.9538 19.5747C12.8096 20.6133 11.0692 22.3319 10.0038 24.4628L9.5293 25.4117" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
 </g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_248_356">
+<rect width="36" height="36" fill="white"/>
+</clipPath>
+</defs>
 </svg>

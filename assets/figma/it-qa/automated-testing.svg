@@ -1,5 +1,39 @@
-<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="5.53529" height="5.53534" viewBox="0 0 5.53529 5.53534" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="g2636">
-<path id="path2638" d="M0.530334 5.00501L5.00495 0.530326" stroke-width="1.5" stroke-miterlimit="10" stroke="#0099FF"/>
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" fill="#3B3B3B"/>
+<g id="04_IT &#38; QA Services">
+<rect width="1440" height="2645" transform="translate(-785 -1236)" fill="white"/>
+<g id="Capabilities Section">
+<rect width="1440" height="1248" transform="translate(-785 -750)" fill="white"/>
+<g id="Frame 44">
+<g id="Frame 290">
+<g id="Frame 39">
+<path d="M-50 -312H505V428C505 433.523 500.523 438 495 438H-40C-45.5229 438 -50 433.523 -50 428V-312Z" fill="#D9ECFC"/>
+<g id="Frame 43">
+<g id="Frame 42">
+<g id="Frame 39_2">
+<path d="M-20 -13C-20 -16.866 -16.866 -20 -13 -20H468C471.866 -20 475 -16.866 475 -13V83C475 86.866 471.866 90 468 90H-13C-16.866 90 -20 86.866 -20 83V-13Z" fill="white"/>
+<g id="Capa_1" clip-path="url(#clip0_248_356)">
+<g id="Group">
+<path id="Vector" d="M25.571 6.53906H34.9453V28.7554H1.05469V6.53906H10.0645" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_2" d="M21.1289 29.4609V31.7812C21.1289 33.354 22.4038 34.6289 23.9766 34.6289H12.0234C13.5962 34.6289 14.8711 33.354 14.8711 31.7812V29.4609" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_3" d="M24.6094 9.31641C24.6094 8.86943 24.5647 8.43293 24.4801 8.01077L25.9355 7.17054L23.8262 3.51703L22.3696 4.35797C21.7176 3.78295 20.9515 3.33429 20.1094 3.05093V1.37109H15.8906V3.05086C15.0485 3.33429 14.2824 3.78288 13.6304 4.3579L12.1738 3.51696L10.0645 7.17047L11.5198 8.0107C11.4352 8.43286 11.3906 8.86943 11.3906 9.31641C11.3906 9.76338 11.4353 10.1999 11.5199 10.622L10.0645 11.4623L12.1738 15.1158L13.6304 14.2748C14.2824 14.8499 15.0485 15.2985 15.8906 15.5819V17.2617H20.1094V15.582C20.9515 15.2985 21.7176 14.8499 22.3696 14.2749L23.8262 15.1159L25.9355 11.4623L24.4802 10.6221C24.5647 10.2 24.6094 9.76338 24.6094 9.31641Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_4" d="M18 11.4961C19.2038 11.4961 20.1797 10.5202 20.1797 9.31641C20.1797 8.1126 19.2038 7.13672 18 7.13672C16.7962 7.13672 15.8203 8.1126 15.8203 9.31641C15.8203 10.5202 16.7962 11.4961 18 11.4961Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_5" d="M23.749 21.5343L25.664 23.4492L29.4609 19.6523" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_6" d="M6.53906 24.293L11.1797 19.6523" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_7" d="M11.1797 24.293L6.53906 19.6523" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
 </g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_248_356">
+<rect width="36" height="36" fill="white"/>
+</clipPath>
+</defs>
 </svg>

@@ -1,5 +1,79 @@
-<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" fill="#3B3B3B"/>
+<g id="04_IT &#38; QA Services">
+<rect width="1440" height="2645" transform="translate(-200 -1116)" fill="white"/>
+<g id="Capabilities Section">
+<rect width="1440" height="1248" transform="translate(-200 -630)" fill="white"/>
+<g id="Frame 44">
+<g id="Frame 289">
+<g id="Frame 37">
+<path d="M-50 -192H505V548C505 553.523 500.523 558 495 558H-40C-45.5229 558 -50 553.523 -50 548V-192Z" fill="#0099FF"/>
+<g id="Frame 43">
+<g id="Frame 42">
+<g id="Frame 17">
+<path d="M-20 -13C-20 -16.866 -16.866 -20 -13 -20H468C471.866 -20 475 -16.866 475 -13V83C475 86.866 471.866 90 468 90H-13C-16.866 90 -20 86.866 -20 83V-13Z" fill="#004372"/>
+<g id="svg2661">
+<g id="g2667">
+<g id="g2669">
+<g id="Clip path group">
+<mask id="mask0_248_356" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
 <g id="clipPath2675">
-<path id="path2673" d="M0 36H36V0H0V36Z" fill="black"/>
+<path id="path2673" d="M0 3.8147e-06H36V36H0V3.8147e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_248_356)">
+<g id="g2671">
+<path id="path2677" d="M13.7812 29.6016H1.05469V21.1641H13.7812V29.6016Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<g id="g2679">
+<path id="path2681" d="M7.45312 33.8203V29.6016" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="g2683">
+<path id="path2685" d="M13.7812 25.3828H22.2188" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<g id="g2687">
+<path id="path2689" d="M18 25.3828V16.9453" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<g id="g2691">
+<g id="Clip path group_2">
+<mask id="mask1_248_356" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+<g id="clipPath2697">
+<path id="path2695" d="M0 3.8147e-06H36V36H0V3.8147e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_248_356)">
+<g id="g2693">
+<g id="g2699">
+<path id="path2701" d="M2.10938 33.8203H12.7266" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<path id="path2703" d="M34.9453 29.6016H22.2188V21.1641H34.9453V29.6016Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+<g id="g2705">
+<path id="path2707" d="M28.5469 33.8203V29.6016" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<g id="g2709">
+<path id="path2711" d="M23.2734 33.8203H33.8906" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<g id="g2713">
+<path id="path2715" d="M28.335 12.7266C28.0609 11.3819 27.5302 10.1295 26.7963 9.02278L28.4409 7.37824L25.4577 4.39502L23.8131 6.03963C22.7065 5.30578 21.454 4.77506 20.1094 4.50098V2.17969H15.8906V4.50098C14.546 4.77506 13.2936 5.30578 12.1868 6.03963L10.5422 4.39502L7.55909 7.37824L9.20362 9.02278C8.46984 10.1294 7.93913 11.3819 7.66498 12.7266H5.34375V16.9453H11.6719V14.8359C11.6719 11.341 14.505 8.50781 18 8.50781C21.495 8.50781 24.3281 11.341 24.3281 14.8359V16.9453H30.6562V12.7266H28.335Z" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<g id="g2717">
+<path id="path2719" d="M11.6719 16.9453H24.3281" stroke="#0099FF" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
 </g>
 </svg>
