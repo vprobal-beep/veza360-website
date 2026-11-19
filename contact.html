@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us — Veza 360</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Montserrat:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=16" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body class="contact-page">
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="mobile-brand-group">
+          <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+            <img src="assets/figma/d3918.svg" width="24" height="24" alt="" />
+          </button>
+          <a class="brand" href="index.html#home" aria-label="Veza 360 home">Veza<span>360</span><b>°</b></a>
+        </div>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="index.html#home">Home</a><a href="platform.html">Platform</a><a href="engineering.html">Software Engineering</a><a href="it-qa.html">IT &amp; QA Services</a><a href="about.html">About Us</a>
+        </nav>
+        <a class="header-contact" href="contact.html" aria-current="page"><svg class="phone-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.8h3l1.4 4-2 1.6a15 15 0 0 0 5.2 5.2l1.6-2 4 1.4v3c0 1.2-1 2.2-2.2 2.2A15.2 15.2 0 0 1 4.8 6c0-1.2 1-2.2 2.2-2.2Z" /></svg><span>Contact Us</span></a>
+      </div>
+    </header>
+    <main>
+      <section class="contact-hero" aria-labelledby="contact-title">
+        <div class="contact-shell">
+          <h1 id="contact-title">Let’s Start a Conversation.</h1>
+          <p>Whether you need a product demo, a custom build, or IT support, our team is ready to help.</p>
+        </div>
+      </section>
+      <section class="contact-shell contact-form-section" id="contact-form" aria-labelledby="form-title">
+        <h2 id="form-title">Fill up the form below and we will contact you</h2>
+        <div class="contact-columns">
+          <form class="contact-form">
+            <div class="contact-field"><img src="assets/figma/contact/81d30.svg" alt=""><input name="name" autocomplete="name" aria-label="Full name" placeholder="Enter Your Full Name" required></div>
+            <div class="contact-field"><img src="assets/figma/contact/d7965.svg" alt=""><input name="company" autocomplete="organization" aria-label="Company name" placeholder="Enter Company Name" required></div>
+            <div class="contact-field"><img src="assets/figma/contact/2358b.svg" alt=""><input name="email" type="email" autocomplete="email" aria-label="Email address" placeholder="Enter Email Address" required></div>
+            <div class="contact-field"><img src="assets/figma/contact/0d146.svg" alt=""><select name="interest" aria-label="Your interest" required><option value="" disabled selected>Select Your Interest</option><option>Product Information Exchange</option><option>Software Product Development</option><option>Fractional IT &amp; QA Services</option><option>General &amp; Billing</option></select></div>
+            <div class="contact-field"><img src="assets/figma/contact/e29ad.svg" alt=""><textarea name="message" aria-label="Message" placeholder="Enter Your Message" required></textarea></div>
+            <button class="button button-primary" type="submit">Send Message</button>
+            <p class="contact-status" role="status" hidden></p>
+          </form>
+          <address class="contact-card">
+            <div>
+              <p><strong>Email</strong> <a href="mailto:info@veza360.com">info@veza360.com</a></p>
+              <p><strong>Phone</strong> <a href="tel:+12345678">+1 234 5678</a></p>
+              <p><strong>Address</strong> 11501 Dublin Blvd, Suite 200, Dublin, CA 94568</p>
+            </div>
+          </address>
+        </div>
+      </section>
+      <section class="contact-faq" aria-labelledby="faq-title">
+        <div class="contact-shell">
+          <h2 id="faq-title">Frequently Asked Questions</h2>
+          <details open><summary>Do you work with companies outside the industrial sector?</summary><p>Yes! While we specialize in industrial safety, our development and QA teams work across various industries including Fire &amp; Hazmat, Occupational Health and Safety (EHS), environmental Services and Compliance, Industrial IoT and Monitoring, Asset Management and Maintenance, Training certification &amp; Simulation.</p></details>
+          <details><summary>How does the fractional IT model work?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>
+          <div class="faq-categories">
+            <button type="button" aria-pressed="true" data-category="0">Product Information Exchange</button>
+            <button type="button" aria-pressed="false" data-category="1">Software Product Development</button>
+            <button type="button" aria-pressed="false" data-category="2">Fractional IT &amp; QA Services</button>
+            <button type="button" aria-pressed="false" data-category="3">General &amp; Billing</button>
+          </div>
+          <select class="faq-category-select" aria-label="FAQ category"><option>Product Information Exchange</option><option>Software Product Development</option><option>Fractional IT &amp; QA Services</option><option>General &amp; Billing</option></select>
+          <div class="faq-product">
+            <details><summary>How long does it take to onboard our data onto the platform?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>
+            <details><summary>Does the platform integrate with our existing ERP or PIM systems?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>
+            <details><summary>Is our proprietary product data secure?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>
+            <details><summary>What happens if we update a product specification?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>
+          </div>
+          <p class="faq-category-contact" hidden><a href="#contact-form">Contact us with your questions.</a></p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-main"><div class="footer-brand-links"><div class="footer-brand-block"><a class="brand" href="index.html#home" aria-label="Veza 360 home">Veza<span>360</span><b>°</b></a><p>Connecting Data, Development,<br />and Operations.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="platform.html">Platform</a><a href="engineering.html">Engineering</a><a href="it-qa.html">Services</a><a href="about.html">About</a><a href="mailto:info@veza360.com?subject=Privacy%20Policy">Privacy Policy</a><a href="mailto:info@veza360.com?subject=Terms%20and%20Conditions">Terms &amp; Conditions</a></nav></div><address class="footer-contact"><h2>Contact Us</h2><a href="mailto:info@veza360.com"><span class="contact-label">Email</span> <span class="contact-value">info@veza360.com</span></a><a href="tel:+12345678"><span class="contact-label">Phone</span> <span class="contact-value">+1 234 5678</span></a><p><span class="contact-label">Address</span> <span class="contact-value">11501 Dublin Blvd, Suite 200,<br />Dublin, CA 94568</span></p></address></div><div class="copyright">© 2026 Veza 360. All Rights Reserved.</div></footer>
+    <script src="script.js?v=contact"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
