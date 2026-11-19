@@ -65,3 +65,8 @@ if (processSection && "IntersectionObserver" in window) {
     if (reduceMotionPreference.matches) processSection.classList.remove("is-animated");
   });
 }
+
+// Keep legacy About links aligned with the standalone About Us page.
+document.querySelectorAll('a[href="index.html#about"], a[href="#about"]').forEach((link) => {
+  link.setAttribute("href", "about.html");
+});
