@@ -1,0 +1,16 @@
+/* The Clarity export includes 20px of surrounding canvas on each side. */
+.about-value > img {
+  width: 193px;
+  height: 193px;
+  top: -20px;
+  clip-path: circle(76.5px);
+}
+
+.about-value-orb img {
+  filter: url("#value-icon-matte");
+}
+
+.about-value > img,
+.about-value-orb {
+  filter: drop-shadow(0 6px 8px rgb(0 0 0 / 12%));
+}
