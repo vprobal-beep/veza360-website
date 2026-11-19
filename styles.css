@@ -198,6 +198,7 @@ button {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  filter: brightness(1.14) saturate(1.05);
 }
 
 .hero-inner {
