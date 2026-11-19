@@ -1,0 +1,37 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="03_software_engineering">
+
+<g id="Capabilities Section">
+
+<g id="Capability Cards">
+<g id="Capability Card">
+<rect x="-30" y="-30" width="558" height="213" rx="10"/>
+<rect x="-30" y="-30" width="558" height="213" rx="10" fill="url(#paint0_linear_248_356)" fill-opacity="0.95"/>
+<g id="Capability Content">
+<g id="Capa_1" clip-path="url(#clip0_248_356)">
+<g id="Cloud_service">
+<path id="Vector" d="M5.625 46.125C7.69607 46.125 9.375 44.4461 9.375 42.375C9.375 40.3039 7.69607 38.625 5.625 38.625C3.55393 38.625 1.875 40.3039 1.875 42.375C1.875 44.4461 3.55393 46.125 5.625 46.125Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24 46.125C26.0711 46.125 27.75 44.4461 27.75 42.375C27.75 40.3039 26.0711 38.625 24 38.625C21.9289 38.625 20.25 40.3039 20.25 42.375C20.25 44.4461 21.9289 46.125 24 46.125Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M42.375 46.125C44.4461 46.125 46.125 44.4461 46.125 42.375C46.125 40.3039 44.4461 38.625 42.375 38.625C40.3039 38.625 38.625 40.3039 38.625 42.375C38.625 44.4461 40.3039 46.125 42.375 46.125Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M40.875 13.125C40.875 6.91181 35.8382 1.875 29.625 1.875C27.5653 1.875 25.6605 2.46891 24 3.43528C22.3395 2.46891 20.4347 1.875 18.375 1.875C12.1618 1.875 7.125 6.91181 7.125 13.125C4.01841 13.125 1.875 15.6434 1.875 18.75C1.875 21.8566 4.39341 24.375 7.5 24.375H40.5C43.6066 24.375 46.125 21.8566 46.125 18.75C46.125 15.6434 43.9816 13.125 40.875 13.125Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M31.5 20.625V31.875H42.375V38.625" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M5.625 38.625V31.875H16.5V20.625" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M24 20.625V38.625" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_248_356" x1="528" y1="76.5" x2="-30" y2="76.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0099FF" stop-opacity="0"/>
+<stop offset="0.498739" stop-color="#0099FF"/>
+</linearGradient>
+<clipPath id="clip0_248_356">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

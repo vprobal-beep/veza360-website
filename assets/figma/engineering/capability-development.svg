@@ -1,0 +1,96 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="03_software_engineering">
+
+<g id="Capabilities Section">
+
+<g id="Capability Cards">
+<g id="Capability Card">
+<rect x="-30" y="-30" width="558" height="213" rx="10"/>
+<rect x="-30" y="-30" width="558" height="213" rx="10" fill="url(#paint0_linear_248_356)" fill-opacity="0.95"/>
+<g id="Capability Content">
+<g id="svg363" clip-path="url(#clip0_248_356)">
+<g id="g369">
+<g id="g371">
+<path id="path373" d="M18.9218 16.9688L11.8125 20.25L24 25.875L36.1875 20.25L29.0782 16.9688" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g375">
+<g id="Clip path group">
+<mask id="mask0_248_356" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g id="clipPath381">
+<path id="path379" d="M0 3.8147e-06H48V48H0V3.8147e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_248_356)">
+<g id="g377">
+<g id="g383">
+<path id="path385" d="M33.375 46.5H14.625" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="g387">
+<path id="path389" d="M40.9688 34.3125V31.5" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g391">
+<path id="path393" d="M35.3438 34.3125V31.5" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g395">
+<g id="Clip path group_2">
+<mask id="mask1_248_356" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g id="clipPath401">
+<path id="path399" d="M0 3.8147e-06H48V48H0V3.8147e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_248_356)">
+<g id="g397">
+<g id="g403">
+<path id="path405" d="M19.3125 39.9375H28.6875L30.5625 46.5H17.4375L19.3125 39.9375Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g407">
+<path id="path409" d="M24 1.5L36.1875 7.125L24 12.75L11.8125 7.125L24 1.5Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g id="g411">
+<path id="path413" d="M18.9218 10.4062L11.8125 13.6875L24 19.3125L36.1875 13.6875L29.0782 10.4062" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g415">
+<g id="Clip path group_3">
+<mask id="mask2_248_356" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g id="clipPath421">
+<path id="path419" d="M0 3.8147e-06H48V48H0V3.8147e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_248_356)">
+<g id="g417">
+<g id="g423">
+<path id="path425" d="M11.8125 7.125H4.21875C2.6655 7.125 1.40625 8.38416 1.40625 9.9375V37.125C1.40625 38.6783 2.6655 39.9375 4.21875 39.9375H43.7812C45.3345 39.9375 46.5937 38.6783 46.5937 37.125V9.9375C46.5937 8.38416 45.3345 7.125 43.7812 7.125H36.1875" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g427">
+<path id="path429" d="M46.5937 31.5H1.40625" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_248_356" x1="528" y1="76.5" x2="-30" y2="76.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#042339" stop-opacity="0"/>
+<stop offset="0.496247" stop-color="#004372"/>
+</linearGradient>
+<clipPath id="clip0_248_356">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

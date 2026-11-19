@@ -1,0 +1,43 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="03_software_engineering">
+
+<g id="Capabilities Section">
+
+<g id="Capability Cards">
+<g id="Capability Card">
+<rect x="-30" y="-30" width="558" height="213" rx="10" style="mix-blend-mode:luminosity"/>
+<rect x="-30" y="-30" width="558" height="213" rx="10" fill="url(#paint0_linear_248_356)" fill-opacity="0.95"/>
+<g id="Capability Content">
+<g id="Capa_1">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M43.6666 37.3786C45.2833 37.3786 46.5939 36.068 46.5939 34.4513C46.5939 32.8345 45.2833 31.5239 43.6666 31.5239C42.0499 31.5239 40.7393 32.8345 40.7393 34.4513C40.7393 36.068 42.0499 37.3786 43.6666 37.3786Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M10.0763 37.3786C11.693 37.3786 13.0036 36.068 13.0036 34.4513C13.0036 32.8345 11.693 31.5239 10.0763 31.5239C8.45954 31.5239 7.14893 32.8345 7.14893 34.4513C7.14893 36.068 8.45954 37.3786 10.0763 37.3786Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M23.3366 34.4513H13.4282" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M26.8717 37.3786C28.4884 37.3786 29.799 36.068 29.799 34.4513C29.799 32.8345 28.4884 31.5239 26.8717 31.5239C25.255 31.5239 23.9443 32.8345 23.9443 34.4513C23.9443 36.068 25.255 37.3786 26.8717 37.3786Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M40.1316 34.4513H30.2114" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M10.0764 43.1215C14.8649 43.1215 18.7466 39.2397 18.7466 34.4513C18.7466 29.6629 14.8649 25.7811 10.0764 25.7811C5.28803 25.7811 1.40625 29.6629 1.40625 34.4513C1.40625 39.2397 5.28803 43.1215 10.0764 43.1215Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_3">
+<path id="Vector_7" d="M4.33359 16.4759C5.95032 16.4759 7.26094 15.1653 7.26094 13.5486C7.26094 11.9318 5.95032 10.6212 4.33359 10.6212C2.71687 10.6212 1.40625 11.9318 1.40625 13.5486C1.40625 15.1653 2.71687 16.4759 4.33359 16.4759Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M37.9234 16.4759C39.5402 16.4759 40.8508 15.1653 40.8508 13.5486C40.8508 11.9318 39.5402 10.6212 37.9234 10.6212C36.3067 10.6212 34.9961 11.9318 34.9961 13.5486C34.9961 15.1653 36.3067 16.4759 37.9234 16.4759Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M24.6636 13.5486H34.5719" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M21.1285 16.4759C22.7452 16.4759 24.0559 15.1653 24.0559 13.5486C24.0559 11.9318 22.7452 10.6212 21.1285 10.6212C19.5118 10.6212 18.2012 11.9318 18.2012 13.5486C18.2012 15.1653 19.5118 16.4759 21.1285 16.4759Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M7.86865 13.5486H17.7888" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M37.9236 22.2188C42.712 22.2188 46.5938 18.337 46.5938 13.5486C46.5938 8.76019 42.712 4.87842 37.9236 4.87842C33.1352 4.87842 29.2534 8.76019 29.2534 13.5486C29.2534 18.337 33.1352 22.2188 37.9236 22.2188Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_248_356" x1="528" y1="76.5" x2="-30" y2="76.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#042237" stop-opacity="0"/>
+<stop offset="0.497472" stop-color="#004372"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<g id="03_software_engineering">
+
+<g id="Capabilities Section">
+
+<g id="Capability Cards">
+<g id="Capability Card">
+<rect x="-30" y="-30" width="558" height="213" rx="10"/>
+<rect x="-30" y="-30" width="558" height="213" rx="10" fill="url(#paint0_linear_248_356)" fill-opacity="0.95"/>
+<g id="Capability Content">
+<g id="Capa_1">
+<g id="Group">
+<path id="Vector" d="M24 46.5797C35.3474 44.9664 43.7793 35.2509 43.7793 23.7893V11.2489C38.3432 11.2489 33.9365 6.84215 33.9365 1.40613H14.0635C14.0635 6.84215 9.65672 11.2489 4.2207 11.2489V23.7893C4.2207 35.2509 12.6526 44.9664 24 46.5797Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_2" d="M22.5938 8.77478H25.406" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_3" d="M15.5635 11.587H18.3757" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_4" d="M29.6245 11.587H32.4367" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_5" d="M25.406 37.6938H22.5938" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_6" d="M31.0305 34.8816H28.2183" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_7" d="M19.7815 34.8816H16.9692" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_8" d="M9.93896 29.2571H38.0612" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_9" d="M26.8124 29.2571V15.583C25.9328 15.2721 24.9864 15.1023 24.0002 15.1023C23.0141 15.1023 22.0677 15.2721 21.188 15.583V29.2571" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_10" d="M14.1572 29.2571V24.0196C14.1572 20.9134 16.6754 18.3952 19.7817 18.3952H21.1878" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_11" d="M33.843 29.2571V24.0196C33.843 20.9134 31.3248 18.3952 28.2185 18.3952H26.8125" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_248_356" x1="528" y1="76.5" x2="-30" y2="76.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0099FF" stop-opacity="0"/>
+<stop offset="0.499964" stop-color="#0099FF"/>
+</linearGradient>
+</defs>
+</svg>
