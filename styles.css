@@ -2051,6 +2051,19 @@ button {
   color: #cdcdcd;
 }
 
+.capability-design {
+  grid-column: 1 / -1;
+}
+
+.capability-design::after {
+  background: linear-gradient(to left, rgba(0, 67, 114, 0) 0%, rgba(0, 67, 114, 0.95) 52%);
+}
+
+.capability-design > p {
+  width: min(560px, 100%);
+  border-left-color: #0099ff;
+}
+
 .engineering-process {
   padding: 80px 0;
   background: var(--sky);
