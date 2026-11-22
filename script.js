@@ -70,3 +70,18 @@ if (processSection && "IntersectionObserver" in window) {
 document.querySelectorAll('a[href="index.html#about"], a[href="#about"]').forEach((link) => {
   link.setAttribute("href", "about.html");
 });
+
+document.querySelectorAll(".platform-video-frame[data-video-src]").forEach((frame) => {
+  const poster = frame.querySelector(".platform-video-poster");
+  if (!poster) return;
+
+  poster.addEventListener("click", () => {
+    const iframe = document.createElement("iframe");
+    iframe.src = frame.dataset.videoSrc;
+    iframe.title = frame.dataset.videoTitle || "Explainer Video";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.referrerPolicy = "strict-origin-when-cross-origin";
+    iframe.allowFullscreen = true;
+    frame.replaceChildren(iframe);
+  });
+});
