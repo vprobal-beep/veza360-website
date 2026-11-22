@@ -2118,12 +2118,13 @@ button {
 
 .engineering-process-symbol {
   position: absolute;
-  top: 26px;
-  left: 26px;
+  inset: 0;
+  margin: auto;
   display: block;
   width: 48px;
   height: 48px;
   max-width: none;
+  transform-origin: center center;
 }
 
 .engineering-process-step h3 {
@@ -2458,19 +2459,19 @@ button {
 }
 
 .engineering-process.is-animated .engineering-process-step-1 .engineering-process-symbol {
-  animation: process-discovery-detail 8s linear infinite;
+  animation: process-discovery-detail 8s linear 1 forwards;
 }
 
 .engineering-process.is-animated .engineering-process-step-2 .engineering-process-symbol {
-  animation: process-architecture-detail 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation: process-architecture-detail 8s cubic-bezier(0.4, 0, 0.2, 1) 1 forwards;
 }
 
 .engineering-process.is-animated .engineering-process-step-3 .engineering-process-symbol {
-  animation: process-development-detail 8s ease-in-out infinite;
+  animation: process-development-detail 8s ease-in-out 1 forwards;
 }
 
 .engineering-process.is-animated .engineering-process-step-4 .engineering-process-symbol {
-  animation: process-launch-detail 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation: process-launch-detail 8s cubic-bezier(0.4, 0, 0.2, 1) 1 forwards;
 }
 
 @keyframes process-step-one {

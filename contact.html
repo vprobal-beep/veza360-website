@@ -39,7 +39,38 @@
             <div class="contact-field"><img src="assets/figma/contact/81d30.svg" alt=""><input name="name" autocomplete="name" aria-label="Full name" placeholder="Enter Your Full Name" required></div>
             <div class="contact-field"><img src="assets/figma/contact/d7965.svg" alt=""><input name="company" autocomplete="organization" aria-label="Company name" placeholder="Enter Company Name" required></div>
             <div class="contact-field"><img src="assets/figma/contact/2358b.svg" alt=""><input name="email" type="email" autocomplete="email" aria-label="Email address" placeholder="Enter Email Address" required></div>
-            <div class="contact-field"><img src="assets/figma/contact/0d146.svg" alt=""><select name="interest" aria-label="Your interest" required><option value="" disabled selected>Select Your Interest</option><option>Product Information Exchange</option><option>Software Product Development</option><option>Fractional IT &amp; QA Services</option><option>General &amp; Billing</option></select></div>
+            <div class="contact-field contact-field-select" data-select>
+              <img class="contact-field-icon" src="assets/figma/contact/0d146.svg" alt="">
+              <select class="contact-native-select" name="interest" aria-label="Your interest" required tabindex="-1" aria-hidden="true">
+                <option value="" disabled selected>Select Your Interest</option>
+                <option>Product Information Exchange</option>
+                <option>Software Product Development</option>
+                <option>Fractional IT &amp; QA Services</option>
+                <option>General &amp; Billing</option>
+              </select>
+              <button class="contact-select-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Your interest">
+                <span class="contact-select-value is-placeholder">Select Your Interest</span>
+                <img class="contact-select-chevron" src="assets/figma/contact/c08b3.svg" width="24" height="24" alt="" aria-hidden="true">
+              </button>
+              <ul class="contact-select-menu" role="listbox" aria-label="Your interest" hidden>
+                <li role="option" class="contact-select-option" data-value="Product Information Exchange" aria-selected="false" tabindex="-1">
+                  <span>Product Information Exchange</span>
+                  <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+                </li>
+                <li role="option" class="contact-select-option" data-value="Software Product Development" aria-selected="false" tabindex="-1">
+                  <span>Software Product Development</span>
+                  <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+                </li>
+                <li role="option" class="contact-select-option" data-value="Fractional IT & QA Services" aria-selected="false" tabindex="-1">
+                  <span>Fractional IT &amp; QA Services</span>
+                  <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+                </li>
+                <li role="option" class="contact-select-option" data-value="General & Billing" aria-selected="false" tabindex="-1">
+                  <span>General &amp; Billing</span>
+                  <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+                </li>
+              </ul>
+            </div>
             <div class="contact-field"><img src="assets/figma/contact/e29ad.svg" alt=""><textarea name="message" aria-label="Message" placeholder="Enter Your Message" required></textarea></div>
             <button class="button button-primary" type="submit">Send Message</button>
             <p class="contact-status" role="status" hidden></p>
@@ -64,7 +95,36 @@
             <button type="button" aria-pressed="false" data-category="2">Fractional IT &amp; QA Services</button>
             <button type="button" aria-pressed="false" data-category="3">General &amp; Billing</button>
           </div>
-          <select class="faq-category-select" aria-label="FAQ category"><option>Product Information Exchange</option><option>Software Product Development</option><option>Fractional IT &amp; QA Services</option><option>General &amp; Billing</option></select>
+          <div class="faq-select" data-faq-select>
+            <select class="faq-category-select" aria-label="FAQ category" tabindex="-1" aria-hidden="true">
+              <option>Product Information Exchange</option>
+              <option>Software Product Development</option>
+              <option>Fractional IT &amp; QA Services</option>
+              <option>General &amp; Billing</option>
+            </select>
+            <button class="faq-select-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="FAQ category">
+              <span class="faq-select-value">Product Information Exchange</span>
+              <img class="faq-select-chevron" src="assets/figma/contact/c08b3.svg" width="24" height="24" alt="" aria-hidden="true">
+            </button>
+            <ul class="faq-select-menu" role="listbox" aria-label="FAQ category" hidden>
+              <li role="option" class="faq-select-option" data-index="0" aria-selected="true" tabindex="-1">
+                <span>Product Information Exchange</span>
+                <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+              </li>
+              <li role="option" class="faq-select-option" data-index="1" aria-selected="false" tabindex="-1">
+                <span>Software Product Development</span>
+                <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+              </li>
+              <li role="option" class="faq-select-option" data-index="2" aria-selected="false" tabindex="-1">
+                <span>Fractional IT &amp; QA Services</span>
+                <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+              </li>
+              <li role="option" class="faq-select-option" data-index="3" aria-selected="false" tabindex="-1">
+                <span>General &amp; Billing</span>
+                <svg class="contact-select-check" viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5L15.5 6.5" /></svg>
+              </li>
+            </ul>
+          </div>
           <div class="faq-product">
             <details><summary>How long does it take to onboard our data onto the platform?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>
             <details><summary>Does the platform integrate with our existing ERP or PIM systems?</summary><p><a href="#contact-form">Contact us for details.</a></p></details>

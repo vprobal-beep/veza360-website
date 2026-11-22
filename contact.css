@@ -35,10 +35,35 @@
 .contact-page main h2 { margin: 0; padding-block: 5px; font-size: 30px; font-weight: 600; }
 .contact-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(270px, 442px); gap: 25px; margin-top: 30px; align-items: start; }
 .contact-form { display: grid; gap: 15px; }
-.contact-field { display: flex; align-items: start; gap: 10px; padding: 15px; border-radius: 7px; background: #f6f6f6; }
+.contact-field { position: relative; display: flex; align-items: start; gap: 10px; padding: 15px; border: 1.5px solid transparent; border-radius: 7px; background: #f6f6f6; transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease; }
+.contact-field:focus-within,
+.contact-field.is-open { border-color: var(--bright-blue); background: #fff; box-shadow: 0 0 0 3px rgba(0, 153, 255, 0.14), 0 4px 12px rgba(0, 153, 255, 0.12); }
 .contact-field img { flex: none; }
-.contact-field :is(input, select, textarea) { width: 100%; min-width: 0; min-height: 24px; padding: 0; border: 0; background: transparent; color: var(--muted); font: 300 16px var(--body-font); }
-.contact-field select, .faq-category-select { appearance: none; padding-right: 28px; background: url("assets/figma/contact/c08b3.svg") right center no-repeat; }
+.contact-field :is(input, textarea) { width: 100%; min-width: 0; min-height: 24px; padding: 0; border: 0; background: transparent; color: var(--navy); font: 400 16px var(--body-font); }
+.contact-field :is(input, textarea)::placeholder { color: var(--muted); font-weight: 300; }
+.contact-field :is(input, select, textarea):focus { outline: none; }
+.contact-field-select { align-items: center; }
+.contact-native-select { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; border: 0; opacity: 0; pointer-events: none; }
+.contact-select-trigger { display: flex; flex: 1; min-width: 0; min-height: 24px; align-items: center; justify-content: space-between; gap: 12px; padding: 0; border: 0; background: transparent; color: var(--navy); font: 400 16px/1.5 var(--body-font); text-align: left; cursor: pointer; }
+.contact-select-trigger::before { position: absolute; inset: 0; z-index: 1; border-radius: inherit; content: ""; }
+.contact-select-trigger:focus { outline: none; }
+.contact-select-value { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.contact-select-value.is-placeholder { color: var(--muted); font-weight: 300; }
+.contact-select-chevron { width: 24px; height: 24px; transition: transform 0.2s ease; }
+.contact-field.is-open .contact-select-chevron { transform: rotate(180deg); }
+.contact-select-menu { position: absolute; z-index: 20; top: calc(100% + 8px); right: -1.5px; left: -1.5px; margin: 0; padding: 6px; border: 1.5px solid #c9e4fa; border-radius: 10px; background: #fff; box-shadow: 0 14px 32px rgba(1, 35, 58, 0.14), 0 4px 12px rgba(0, 153, 255, 0.1); list-style: none; animation: contact-dropdown-in 0.16s ease-out; }
+.contact-select-menu[hidden] { display: none; }
+.contact-select-option { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 11px 14px; border-radius: 7px; color: var(--navy); font: 400 16px/1.35 var(--body-font); cursor: pointer; transition: background-color 0.15s ease, color 0.15s ease; }
+.contact-select-option:hover,
+.contact-select-option:focus-visible { outline: none; background: #eff8ff; color: var(--brand-blue); }
+.contact-select-option[aria-selected="true"] { background: var(--sky); color: var(--brand-blue); font-weight: 600; }
+.contact-select-check { width: 18px; height: 18px; flex: none; opacity: 0; fill: none; stroke: var(--bright-blue); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: opacity 0.15s ease; }
+.contact-select-option[aria-selected="true"] .contact-select-check { opacity: 1; }
+@keyframes contact-dropdown-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.faq-category-select { appearance: none; padding-right: 28px; background: url("assets/figma/contact/c08b3.svg") right center no-repeat; }
 .contact-field textarea { min-height: 78px; resize: vertical; }
 .contact-form .button { justify-self: start; margin-top: 5px; border: 0; background: var(--bright-blue); color: white; font: 500 18px var(--body-font); cursor: pointer; }
 .contact-status { margin: 0; color: var(--muted); }
@@ -62,10 +87,9 @@
 .contact-faq details[open] summary::after { content: url("assets/figma/contact/61714.svg"); }
 .contact-faq details p { margin: 15px 0 0; color: var(--muted); font-weight: 300; }
 .faq-categories { display: grid; grid-template-columns: repeat(4, 1fr); margin: 30px 0 25px; }
-.faq-categories button, .faq-category-select { border: 0; border-bottom: 3px solid #c9e4fa; padding: 20px 10px; font: 400 18px var(--body-font); }
-.faq-categories button { background: transparent; color: #666; cursor: pointer; }
-.faq-categories button[aria-pressed="true"], .faq-category-select { border-color: var(--bright-blue); background-color: white; color: black; font-weight: 600; }
-.faq-category-select { display: none; }
+.faq-categories button { border: 0; border-bottom: 3px solid #c9e4fa; padding: 20px 10px; background: transparent; color: #666; font: 400 18px var(--body-font); cursor: pointer; }
+.faq-categories button[aria-pressed="true"] { border-color: var(--bright-blue); background-color: white; color: black; font-weight: 600; }
+.faq-select { display: none; }
 
 @media (max-width: 800px) {
   .contact-shell { width: calc(100% - 40px); }
@@ -75,5 +99,19 @@
   .contact-columns { grid-template-columns: 1fr; }
   .contact-card { padding: 20px; }
   .faq-categories { display: none; }
-  .faq-category-select { display: block; width: 100%; margin: 30px 0 20px; padding-inline: 22px 40px; background-position: right 20px center; }
+  .faq-select { position: relative; display: block; width: 100%; margin: 30px 0 20px; }
+  .faq-category-select { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; border: 0; opacity: 0; pointer-events: none; }
+  .faq-select-trigger { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 12px; padding: 20px 20px 20px 22px; border: 0; border-bottom: 3px solid var(--bright-blue); border-radius: 0; background: #fff; color: #000; font: 600 18px/1.3 var(--body-font); text-align: left; cursor: pointer; transition: box-shadow 0.2s ease; }
+  .faq-select-trigger:focus-visible,
+  .faq-select.is-open .faq-select-trigger { outline: none; box-shadow: 0 4px 12px rgba(0, 153, 255, 0.14); }
+  .faq-select-value { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .faq-select-chevron { width: 24px; height: 24px; flex: none; transition: transform 0.2s ease; }
+  .faq-select.is-open .faq-select-chevron { transform: rotate(180deg); }
+  .faq-select-menu { position: absolute; z-index: 20; top: calc(100% + 4px); right: 0; left: 0; margin: 0; padding: 0; border: 1px solid #c9e4fa; border-radius: 0; background: #fff; box-shadow: 0 12px 28px rgba(1, 35, 58, 0.14), 0 4px 10px rgba(0, 153, 255, 0.1); list-style: none; animation: contact-dropdown-in 0.16s ease-out; }
+  .faq-select-menu[hidden] { display: none; }
+  .faq-select-option { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 20px 14px 22px; border-bottom: 2px solid transparent; border-radius: 0; color: #666; font: 400 17px/1.35 var(--body-font); cursor: pointer; transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease; }
+  .faq-select-option:hover,
+  .faq-select-option:focus-visible { outline: none; background: #eff8ff; color: var(--brand-blue); }
+  .faq-select-option[aria-selected="true"] { border-bottom-color: var(--bright-blue); background: var(--sky); color: #000; font-weight: 600; }
+  .faq-select-option[aria-selected="true"] .contact-select-check { opacity: 1; }
 }
