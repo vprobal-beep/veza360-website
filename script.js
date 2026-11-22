@@ -45,24 +45,42 @@ if (heroVideo) {
 const processSection = document.querySelector(".engineering-process");
 
 if (processSection && "IntersectionObserver" in window) {
+  const processTarget = processSection.querySelector(".engineering-process-steps") || processSection;
+
+  if (!reduceMotionPreference.matches) {
+    processSection.classList.add("is-waiting");
+  }
+
   const processObserver = new IntersectionObserver(
     ([entry]) => {
       if (reduceMotionPreference.matches) {
-        processSection.classList.remove("is-animated");
+        processSection.classList.remove("is-waiting", "is-animated");
         return;
       }
 
       if (entry.isIntersecting) {
+        processSection.classList.remove("is-waiting");
         processSection.classList.add("is-animated");
-        processObserver.unobserve(processSection);
+        processObserver.unobserve(processTarget);
       }
     },
-    { threshold: 0.25 },
+    { threshold: 0.2, rootMargin: "0px 0px -15% 0px" },
   );
 
-  processObserver.observe(processSection);
+  const startProcessObservation = () => {
+    processObserver.observe(processTarget);
+  };
+
+  if (window.scrollY > 0) {
+    startProcessObservation();
+  } else {
+    window.addEventListener("scroll", startProcessObservation, { once: true, passive: true });
+  }
+
   reduceMotionPreference.addEventListener?.("change", () => {
-    if (reduceMotionPreference.matches) processSection.classList.remove("is-animated");
+    if (reduceMotionPreference.matches) {
+      processSection.classList.remove("is-waiting", "is-animated");
+    }
   });
 }
 

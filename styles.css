@@ -2558,6 +2558,15 @@ button {
 }
 
 /* Our Process sequence */
+.engineering-process.is-waiting .engineering-process-step {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.engineering-process.is-waiting .engineering-process-connector {
+  opacity: 0;
+}
+
 .engineering-process.is-animated .engineering-process-step,
 .engineering-process.is-animated .engineering-process-connector {
   animation-duration: 8s;
@@ -2671,6 +2680,8 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .engineering-process.is-waiting .engineering-process-step,
+  .engineering-process.is-waiting .engineering-process-connector,
   .engineering-process.is-animated .engineering-process-step,
   .engineering-process.is-animated .engineering-process-connector,
   .engineering-process.is-animated .engineering-process-symbol {
