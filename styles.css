@@ -2440,7 +2440,8 @@ button {
   }
 
   .engineering-capability-card {
-    height: 213px;
+    min-height: 213px;
+    height: auto;
     padding: 30px;
   }
 
