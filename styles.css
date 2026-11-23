@@ -2564,120 +2564,184 @@ button {
   transform: translateY(12px);
 }
 
+.engineering-process.is-waiting .engineering-process-step h3 {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+
+.engineering-process.is-waiting .engineering-process-step p {
+  opacity: 0;
+  transform: translateX(40px);
+}
+
 .engineering-process.is-waiting .engineering-process-connector {
   opacity: 0;
 }
 
 .engineering-process.is-animated .engineering-process-step,
-.engineering-process.is-animated .engineering-process-connector {
-  animation-duration: 8s;
+.engineering-process.is-animated .engineering-process-connector,
+.engineering-process.is-animated .engineering-process-step h3,
+.engineering-process.is-animated .engineering-process-step p {
+  animation-duration: 7s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   animation-fill-mode: forwards;
 }
 
+/* Step 1 */
 .engineering-process.is-animated .engineering-process-step-1 {
-  animation-name: process-step-one;
+  animation-name: process-step-1;
 }
-
-.engineering-process.is-animated .engineering-process-step-2 {
-  animation-name: process-step-two;
+.engineering-process.is-animated .engineering-process-step-1 h3 {
+  animation-name: process-title-1;
 }
-
-.engineering-process.is-animated .engineering-process-step-3 {
-  animation-name: process-step-three;
+.engineering-process.is-animated .engineering-process-step-1 p {
+  animation-name: process-desc-1;
 }
-
-.engineering-process.is-animated .engineering-process-step-4 {
-  animation-name: process-step-four;
-}
-
-.engineering-process.is-animated .engineering-process-connector-1 {
-  animation-name: process-connector-one;
-}
-
-.engineering-process.is-animated .engineering-process-connector-2 {
-  animation-name: process-connector-two;
-}
-
-.engineering-process.is-animated .engineering-process-connector-3 {
-  animation-name: process-connector-three;
-}
-
 .engineering-process.is-animated .engineering-process-step-1 .engineering-process-symbol {
-  animation: process-discovery-detail 8s linear 1 forwards;
+  animation: process-icon-1 7s linear 1 forwards;
+}
+.engineering-process.is-animated .engineering-process-connector-1 {
+  animation-name: process-conn-1;
 }
 
+/* Step 2 */
+.engineering-process.is-animated .engineering-process-step-2 {
+  animation-name: process-step-2;
+}
+.engineering-process.is-animated .engineering-process-step-2 h3 {
+  animation-name: process-title-2;
+}
+.engineering-process.is-animated .engineering-process-step-2 p {
+  animation-name: process-desc-2;
+}
 .engineering-process.is-animated .engineering-process-step-2 .engineering-process-symbol {
-  animation: process-architecture-detail 8s cubic-bezier(0.4, 0, 0.2, 1) 1 forwards;
+  animation: process-icon-2 7s cubic-bezier(0.4, 0, 0.2, 1) 1 forwards;
+}
+.engineering-process.is-animated .engineering-process-connector-2 {
+  animation-name: process-conn-2;
 }
 
+/* Step 3 */
+.engineering-process.is-animated .engineering-process-step-3 {
+  animation-name: process-step-3;
+}
+.engineering-process.is-animated .engineering-process-step-3 h3 {
+  animation-name: process-title-3;
+}
+.engineering-process.is-animated .engineering-process-step-3 p {
+  animation-name: process-desc-3;
+}
 .engineering-process.is-animated .engineering-process-step-3 .engineering-process-symbol {
-  animation: process-development-detail 8s ease-in-out 1 forwards;
+  animation: process-icon-3 7s ease-in-out 1 forwards;
+}
+.engineering-process.is-animated .engineering-process-connector-3 {
+  animation-name: process-conn-3;
 }
 
+/* Step 4 */
+.engineering-process.is-animated .engineering-process-step-4 {
+  animation-name: process-step-4;
+}
+.engineering-process.is-animated .engineering-process-step-4 h3 {
+  animation-name: process-title-4;
+}
+.engineering-process.is-animated .engineering-process-step-4 p {
+  animation-name: process-desc-4;
+}
 .engineering-process.is-animated .engineering-process-step-4 .engineering-process-symbol {
-  animation: process-launch-detail 8s cubic-bezier(0.4, 0, 0.2, 1) 1 forwards;
+  animation: process-icon-4 7s cubic-bezier(0.4, 0, 0.2, 1) 1 forwards;
 }
 
-@keyframes process-step-one {
-  0%, 5% { opacity: 0; transform: translateY(12px); }
-  12%, 100% { opacity: 1; transform: translateY(0); }
+/* Keyframes: Step Containers */
+@keyframes process-step-1 {
+  0%, 2% { opacity: 0; transform: translateY(12px); }
+  5%, 100% { opacity: 1; transform: translateY(0); }
 }
-
-@keyframes process-step-two {
-  0%, 20% { opacity: 0; transform: translateY(12px); }
-  27%, 100% { opacity: 1; transform: translateY(0); }
+@keyframes process-step-2 {
+  0%, 25% { opacity: 0; transform: translateY(12px); }
+  28%, 100% { opacity: 1; transform: translateY(0); }
 }
-
-@keyframes process-step-three {
-  0%, 35% { opacity: 0; transform: translateY(12px); }
-  42%, 100% { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes process-step-four {
+@keyframes process-step-3 {
   0%, 50% { opacity: 0; transform: translateY(12px); }
-  57%, 100% { opacity: 1; transform: translateY(0); }
+  53%, 100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes process-step-4 {
+  0%, 75% { opacity: 0; transform: translateY(12px); }
+  78%, 100% { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes process-connector-one {
-  0%, 15% { opacity: 0; filter: brightness(1); }
-  22%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px rgba(0, 153, 255, 0.5)); }
+/* Keyframes: Titles from Left */
+@keyframes process-title-1 {
+  0%, 4% { opacity: 0; transform: translateX(-40px); }
+  10%, 100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes process-title-2 {
+  0%, 29% { opacity: 0; transform: translateX(-40px); }
+  35%, 100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes process-title-3 {
+  0%, 54% { opacity: 0; transform: translateX(-40px); }
+  60%, 100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes process-title-4 {
+  0%, 79% { opacity: 0; transform: translateX(-40px); }
+  85%, 100% { opacity: 1; transform: translateX(0); }
 }
 
-@keyframes process-connector-two {
-  0%, 30% { opacity: 0; filter: brightness(1); }
-  37%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px rgba(0, 153, 255, 0.5)); }
+/* Keyframes: Descriptions from Right */
+@keyframes process-desc-1 {
+  0%, 4% { opacity: 0; transform: translateX(40px); }
+  10%, 100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes process-desc-2 {
+  0%, 29% { opacity: 0; transform: translateX(40px); }
+  35%, 100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes process-desc-3 {
+  0%, 54% { opacity: 0; transform: translateX(40px); }
+  60%, 100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes process-desc-4 {
+  0%, 79% { opacity: 0; transform: translateX(40px); }
+  85%, 100% { opacity: 1; transform: translateX(0); }
 }
 
-@keyframes process-connector-three {
-  0%, 45% { opacity: 0; filter: brightness(1); }
-  52%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px rgba(0, 153, 255, 0.5)); }
+/* Keyframes: Fast Icon Animations */
+@keyframes process-icon-1 {
+  0%, 2% { transform: rotate(0deg); filter: brightness(1); }
+  7% { transform: rotate(360deg); filter: brightness(1.18) drop-shadow(0 0 4px rgba(0, 153, 255, 0.45)); }
+  12%, 100% { transform: rotate(360deg); filter: brightness(1); }
+}
+@keyframes process-icon-2 {
+  0%, 27% { transform: translateY(5px) scale(0.92); filter: brightness(1); }
+  32% { transform: translateY(0) scale(1.06); filter: brightness(1.22) drop-shadow(0 0 5px rgba(0, 153, 255, 0.55)); }
+  37%, 100% { transform: translateY(0) scale(1); filter: brightness(1); }
+}
+@keyframes process-icon-3 {
+  0%, 52% { transform: rotate(0deg); filter: brightness(1); }
+  57% { transform: rotate(-4deg); filter: brightness(1.18); }
+  62% { transform: rotate(4deg); filter: brightness(1.18) drop-shadow(0 0 4px rgba(0, 153, 255, 0.45)); }
+  67%, 100% { transform: rotate(0deg); filter: brightness(1); }
+}
+@keyframes process-icon-4 {
+  0%, 77% { transform: translateY(6px); filter: brightness(1); }
+  82% { transform: translateY(-5px); filter: brightness(1.24) drop-shadow(0 6px 5px rgba(0, 153, 255, 0.52)); }
+  87%, 100% { transform: translateY(0); filter: brightness(1); }
 }
 
-@keyframes process-discovery-detail {
-  0%, 10% { transform: rotate(0deg); filter: brightness(1); }
-  72% { transform: rotate(360deg); filter: brightness(1.16) drop-shadow(0 0 4px rgba(0, 153, 255, 0.45)); }
-  92%, 100% { transform: rotate(360deg); filter: brightness(1); }
+/* Keyframes: Connectors */
+@keyframes process-conn-1 {
+  0%, 18% { opacity: 0; filter: brightness(1); }
+  23%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px rgba(0, 153, 255, 0.5)); }
 }
-
-@keyframes process-architecture-detail {
-  0%, 26% { transform: translateY(5px) scale(0.92); filter: brightness(1); }
-  33% { transform: translateY(0) scale(1.06); filter: brightness(1.22) drop-shadow(0 0 5px rgba(0, 153, 255, 0.55)); }
-  42%, 100% { transform: translateY(0) scale(1); filter: brightness(1); }
+@keyframes process-conn-2 {
+  0%, 43% { opacity: 0; filter: brightness(1); }
+  48%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px rgba(0, 153, 255, 0.5)); }
 }
-
-@keyframes process-development-detail {
-  0%, 41% { transform: rotate(0deg); filter: brightness(1); }
-  50% { transform: rotate(-4deg); filter: brightness(1.18); }
-  61% { transform: rotate(4deg); filter: brightness(1.18) drop-shadow(0 0 4px rgba(0, 153, 255, 0.45)); }
-  75%, 100% { transform: rotate(0deg); filter: brightness(1); }
-}
-
-@keyframes process-launch-detail {
-  0%, 56% { transform: translateY(6px); filter: brightness(1); }
-  64% { transform: translateY(-5px); filter: brightness(1.24) drop-shadow(0 6px 5px rgba(0, 153, 255, 0.52)); }
-  74%, 100% { transform: translateY(0); filter: brightness(1); }
+@keyframes process-conn-3 {
+  0%, 68% { opacity: 0; filter: brightness(1); }
+  73%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px rgba(0, 153, 255, 0.5)); }
 }
 
 @media (prefers-reduced-motion: reduce) {
