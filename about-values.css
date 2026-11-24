@@ -2,21 +2,11 @@
   filter: url("#value-icon-matte");
 }
 
-.about-value:nth-child(1) .about-value-orb {
-  overflow: hidden;
-  background: transparent;
-}
-
-.about-value:nth-child(1) .about-value-orb img {
-  width: 193px;
-  height: 193px;
-  max-width: none;
-  object-fit: contain;
-  filter: none !important;
-  clip-path: circle(74px);
-  position: relative;
-  left: -20px;
-  top: -20px;
+.clarity-orb {
+  background-image: url("assets/figma/about/clarity.png");
+  background-size: 136% 136%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .about-value > div {
