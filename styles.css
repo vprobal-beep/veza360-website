@@ -1412,7 +1412,7 @@ button {
 .itqa-dots { position:absolute; bottom:0; left:50%; display:flex; gap:10px; transform:translateX(-50%); }
 .itqa-dots i { width:11px; height:11px; border-radius:50%; background:#d9d9d9; }.itqa-dots i:first-child { background:#09f; }
 .itqa-contact { position:relative; display:flex; min-height:240px; align-items:center; overflow:hidden; padding:60px max(30px,10.14vw); background:#0099ff; color:#fff; }
-.itqa-contact::before { position:absolute; inset:0; background:linear-gradient(90deg,rgba(0,153,255,.9) 26%,rgba(0,0,0,0) 100%),url("assets/figma/it-qa/contact-cta.png") center/cover; content:""; }
+.itqa-contact::before { position:absolute; inset:0; background:linear-gradient(90deg,rgba(0,153,255,.9) 26%,rgba(0,0,0,0) 100%),url("assets/figma/it-qa/contact-cta.jpg") center/cover; content:""; }
 .itqa-contact>div { position:relative; z-index:1; }.itqa-contact h2 { margin:0 0 20px; font-size:30px; font-weight:500; line-height:normal; }.itqa-contact .button { font-size:18px; }
 
 @media (max-width: 700px) {
